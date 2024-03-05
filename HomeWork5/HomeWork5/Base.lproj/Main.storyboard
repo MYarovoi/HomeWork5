@@ -17,74 +17,86 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="969-IT-8HM">
-                                <rect key="frame" x="115.66666666666667" y="535" width="161.66666666666663" height="88.666666666666629"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ba7-7c-qN4">
+                                <rect key="frame" x="0.0" y="307" width="393" height="238.33333333333337"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76D-dU-sEI">
-                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="34.333333333333336"/>
-                                        <color key="backgroundColor" name="AccentColor"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Увійти">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXO-uN-DTH">
-                                        <rect key="frame" x="0.0" y="54.333333333333371" width="161.66666666666666" height="34.333333333333343"/>
-                                        <color key="backgroundColor" name="AccentColor"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Реєстрація">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="NPK-XA-TtH">
-                                <rect key="frame" x="35" y="362.33333333333331" width="323" height="127.66666666666669"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oR3-B2-k7d">
-                                        <rect key="frame" x="0.0" y="0.0" width="323" height="62.333333333333336"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NPK-XA-TtH">
+                                        <rect key="frame" x="30" y="0.0" width="333" height="124.66666666666667"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пошта:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s47-Xn-qfi">
-                                                <rect key="frame" x="0.0" y="0.0" width="323" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qb1-Xm-SqR" userLabel="Email">
-                                                <rect key="frame" x="0.0" y="28.333333333333371" width="323" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="oR3-B2-k7d">
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="57.333333333333336"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пошта:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s47-Xn-qfi">
+                                                        <rect key="frame" x="0.0" y="0.0" width="333" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qb1-Xm-SqR" userLabel="Email">
+                                                        <rect key="frame" x="0.0" y="23.333333333333314" width="333" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="fa1-pG-2VY">
+                                                <rect key="frame" x="0.0" y="67.333333333333314" width="333" height="57.333333333333343"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65i-Vf-wEx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="333" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pvh-BS-vbz" userLabel="Password">
+                                                        <rect key="frame" x="0.0" y="23.333333333333371" width="333" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fa1-pG-2VY">
-                                        <rect key="frame" x="0.0" y="65.333333333333371" width="323" height="62.333333333333343"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="969-IT-8HM">
+                                        <rect key="frame" x="130" y="149.66666666666669" width="133" height="88.666666666666686"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65i-Vf-wEx">
-                                                <rect key="frame" x="0.0" y="0.0" width="323" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pvh-BS-vbz" userLabel="Password">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="323" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXO-uN-DTH">
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="34.333333333333336"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Увійти">
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76D-dU-sEI">
+                                                <rect key="frame" x="0.0" y="54.333333333333314" width="133" height="34.333333333333343"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Реєстрація">
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="NPK-XA-TtH" secondAttribute="trailing" constant="30" id="QCZ-0x-bNP">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                    <constraint firstItem="NPK-XA-TtH" firstAttribute="leading" secondItem="ba7-7c-qN4" secondAttribute="leading" constant="30" id="UB6-64-cmu">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                    <constraint firstItem="969-IT-8HM" firstAttribute="width" secondItem="NPK-XA-TtH" secondAttribute="width" multiplier="0.4" id="Z68-6c-elK"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="969-IT-8HM" firstAttribute="width" secondItem="NPK-XA-TtH" secondAttribute="width" multiplier="0.5" id="RM3-rM-Y2T"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NPK-XA-TtH" secondAttribute="trailing" constant="35" id="VD5-6O-hkC"/>
-                            <constraint firstItem="NPK-XA-TtH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="adf-Dp-6Zs"/>
-                            <constraint firstItem="969-IT-8HM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cDf-wJ-3kd"/>
-                            <constraint firstItem="969-IT-8HM" firstAttribute="top" secondItem="NPK-XA-TtH" secondAttribute="bottom" constant="45" id="f4D-rY-eyC"/>
-                            <constraint firstItem="NPK-XA-TtH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="hUX-VB-F9N"/>
+                            <constraint firstItem="ba7-7c-qN4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5OG-V3-6ui"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ba7-7c-qN4" secondAttribute="trailing" id="Ddx-YA-tLI"/>
+                            <constraint firstItem="ba7-7c-qN4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ReJ-Rx-Anf"/>
+                            <constraint firstItem="ba7-7c-qN4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wpX-iy-wMJ"/>
                         </constraints>
                     </view>
                 </viewController>
